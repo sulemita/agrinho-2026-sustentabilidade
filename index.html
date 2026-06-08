@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tag oficial exigida para identificação -->
+    <meta name="keywords" content="agrinho, sustentabilidade, agro forte, parana">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O equilíbrio entre a produção e a preservação do meio ambiente</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Introdução Textual 100% Autoral -->
+        <section class="card">
+            <h2>O Desafio da Produção Consciente</h2>
+            <p>Até junho de 2026, a busca por uma agricultura que respeite os limites do planeta se tornou prioridade global. Produzir alimentos em larga escala sem esgotar o solo e os recursos hídricos não é apenas um desafio técnico, mas uma necessidade urgente para garantir o futuro das próximas gerações.</p>
+        </section>
+
+        <!-- Recursos Visuais/Grid via CSS -->
+        <section class="grid-3">
+            <div class="card pilar">
+                <h3 id="titulo-pilar-1">🌾 Manejo de Solo</h3>
+                <p>O plantio direto e a rotação de culturas evitam a erosão, fixando nutrientes de forma natural e diminuindo a dependência de insumos químicos sintéticos.</p>
+            </div>
+            <div class="card pilar">
+                <h3 id="titulo-pilar-2">💧 Recursos Hídricos</h3>
+                <p>A irrigação inteligente por gotejamento monitorado reduz drasticamente o desperdício de água potável, aplicando a quantidade exata necessária para a planta.</p>
+            </div>
+            <div class="card pilar">
+                <h3 id="titulo-pilar-3">🤖 Tecnologia no Campo</h3>
+                <p>O uso de sensores e inteligência artificial permite o mapeamento preciso de pragas, aplicando defensivos apenas onde há real necessidade laboratorial.</p>
+            </div>
+        </section>
+
+        <!-- Simulador Interativo com Manipulação de DOM via JS -->
+        <section class="card simulador">
+            <h2>Simulador de Impacto Agroambiental</h2>
+            <p>Selecione um dos cenários abaixo para avaliar o impacto direto no ecossistema e na produtividade:</p>
+            
+            <div class="botoes-simulador">
+                <!-- Usando IDs para capturar os eventos via JS de forma limpa, sem onclick inline -->
+                <button id="btn-tradicional">Cenário A: Práticas Tradicionais</button>
+                <button id="btn-sustentavel">Cenário B: Práticas Sustentáveis</button>
+            </div>
+
+            <!-- Caixa dinâmica que o JavaScript vai modificar (Requisito Nível 4) -->
+            <div id="resultado-simulacao" class="resultado-vazio">
+                <p id="texto-painel">Aguardando a seleção do cenário...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 - Concurso Agrinho: Categoria Programação</p>
+            <p>Desenvolvido por Estudante da 2ª Série do Ensino Médio - Rede Estadual do Paraná</p>
+            <p id="creditos-fontes">Fontes e Referências: Conteúdos autorais baseados nas Trilhas de Educação Digital da SEED-PR.</p>
+            <!-- Tag 'agrinho' visível exigida pela rubrica -->
+            <span class="tag-agrinho">agrinho</span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
